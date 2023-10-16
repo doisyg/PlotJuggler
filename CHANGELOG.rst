@@ -131,6 +131,49 @@ Changelog for package plotjuggler
 * Add missing cstdint include
 * Contributors: Davide Faconti, Faisal Shah, Jonathan Bendes, Mirko Ferrati, Paul Bovbel, Rinat Nazarov, Zach Davis, joajfreitas
 
+Forthcoming
+-----------
+* fix compilation ubuntu 20.04
+* new plugin added: remote MCAP
+* MCAP loader is not faster for large files
+* fix parsers names
+* extend the Toolbox plugin interface
+* mcap updated
+* Merge pull request `#843 <https://github.com/facontidavide/PlotJuggler/issues/843>`_ from faisal-shah/date-time-format-urls
+  Add link to QDate format string
+* Merge pull request `#844 <https://github.com/facontidavide/PlotJuggler/issues/844>`_ from zdavkeos/tab_separator_csv_loader
+  Add 'tab' as a separator in the CSV loader
+* Add link to QDate format string
+  A link to QTime format string was there, but not QDate
+* Merge pull request `#840 <https://github.com/facontidavide/PlotJuggler/issues/840>`_ from jbendes/zcm-improvements
+  Zcm improvements
+* Moved away from std function for speed
+* Fixed loading of selected channels from layout
+* Merge pull request `#827 <https://github.com/facontidavide/PlotJuggler/issues/827>`_ from jbendes/zcm
+  Added zcm streaming support
+* Merge pull request `#834 <https://github.com/facontidavide/PlotJuggler/issues/834>`_ from rinnaz/fix-protobuf-parser-leak
+  Fix memory leak in protobuf parser
+* Made transport text box wider
+* Looking for zcm in alternate directory first
+* A bit more stable
+* Serializing and deserializing dataloader for zcm in layout
+* fix: memory leak in protobuf parser
+* Reverted change
+* Changed to ZCM_DEFAULT_URL
+* cleanup
+* ZCM refactored
+* ZCM works, with single type file
+* Cleaner loading dialogs
+* Added progress dialog
+* Added channel selection
+* Added data loading from files
+* A bit of simplification and bug fix
+* Added zcm streaming support
+* Merge pull request `#830 <https://github.com/facontidavide/PlotJuggler/issues/830>`_ from joajfreitas/main
+  Add missing cstdint include
+* Add missing cstdint include
+* Contributors: Davide Faconti, Faisal Shah, Jonathan Bendes, Rinat Nazarov, Zach Davis, joajfreitas
+
 3.7.0 (2023-05-19)
 ------------------
 * Handle protobuf maps (`#824 <https://github.com/facontidavide/PlotJuggler/issues/824>`_)
